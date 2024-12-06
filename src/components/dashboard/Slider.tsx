@@ -11,7 +11,7 @@ export function Slider({ defaultValue, id, max, min, step, steps, mobileStepsToH
 		<span
 			key={`${id}-${step}`}
 			className={clsx(
-				"h-2.5 w-px justify-center bg-white leading-10",
+				"h-2.5 w-px justify-center bg-lrk-white leading-10",
 				// The back and forward with the hidden class is due to the aside menu appearing on the md: breakpoint
 				mobileStepsToHide?.includes(idx) ? "xs:flex hidden md:hidden lg:flex" : "flex",
 			)}
@@ -40,7 +40,7 @@ export function Slider({ defaultValue, id, max, min, step, steps, mobileStepsToH
 		<div className="mb-3 flex max-w-lg items-center gap-4 px-2.5">
 			<div className="flex-1">
 				<input
-					className="slider-thumb:size-4 h-1.5 w-full cursor-pointer appearance-none slider-thumb:appearance-none rounded-2xl slider-thumb:rounded-full slider-thumb:border-none slider-thumb:bg-primary outline-none"
+					className="slider-thumb:size-4 h-1.5 w-full cursor-pointer appearance-none slider-thumb:appearance-none rounded-2xl slider-thumb:rounded-full slider-thumb:border-none slider-thumb:bg-lrk-primary outline-none"
 					ref={ref}
 					type="range"
 					min={min}
@@ -56,7 +56,7 @@ export function Slider({ defaultValue, id, max, min, step, steps, mobileStepsToH
 			</div>
 
 			<input
-				className="rounded-lg bg-light-gray text-center text-2xl text-white/75 shadow-dim-inner"
+				className="rounded-lg bg-light-gray text-center text-2xl text-lrk-white/75 shadow-dim-inner"
 				value={value}
 				type="number"
 				min={min}

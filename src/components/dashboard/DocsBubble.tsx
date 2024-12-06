@@ -30,7 +30,7 @@ export function DocsBubble({ tooltip, path }: DocsBubblePropos) {
 			<TooltipAnchor store={tooltipStore}>{link}</TooltipAnchor>
 
 			<Tooltip
-				className="max-w-prose text-balance rounded-lg border border-white/25 bg-darker px-3 py-2"
+				className="max-w-prose text-balance rounded-lg border border-lrk-white/25 bg-darker px-3 py-2"
 				store={tooltipStore}
 			>
 				{tooltip}

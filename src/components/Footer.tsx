@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export function Footer() {
 	return (
-		<div className="mx-4 flex justify-center border-white/25 border-t bg-transparent py-8">
+		<div className="mx-4 flex justify-center border-lrk-white/25 border-t bg-transparent py-8">
 			<footer className="flex w-full max-w-7xl flex-col items-center justify-between gap-6 md:flex-row md:gap-0">
 				<div>
-					<p className="text-sm text-white/75 sm:text-end">
+					<p className="text-lrk-white/75 text-sm sm:text-end">
 						Copyright ©️ {new Date().getFullYear()} Lurkr Team. All rights reserved.
 					</p>
 				</div>
@@ -17,7 +17,7 @@ export function Footer() {
 					<div>
 						<p className="mb-2 font-bold">About Us</p>
 
-						<ul className="text-sm text-white/75">
+						<ul className="text-lrk-white/75 text-sm">
 							<li>
 								<ExternalLink className="block py-0.5" href={SUPPORT_SERVER_INVITE}>
 									Discord
@@ -39,7 +39,7 @@ export function Footer() {
 					<div>
 						<p className="mb-2 font-bold">Legal</p>
 
-						<ul className="text-sm text-white/75">
+						<ul className="text-lrk-white/75 text-sm">
 							<li>
 								<Link className="block py-0.5" href="/privacy">
 									Privacy Policy

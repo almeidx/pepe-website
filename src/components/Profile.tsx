@@ -60,7 +60,7 @@ export function ProfileButton({ avatar, globalName, id, username }: User) {
 					<Link href="/guilds">Your servers</Link>
 				</MenuItem>
 
-				<MenuSeparator className="border-white/25" />
+				<MenuSeparator className="border-lrk-white/25" />
 
 				<MenuItem className="rounded-lg px-2 py-1 hover:bg-light-gray/30">
 					<a href={SUPPORT_SERVER_INVITE}>Support server</a>

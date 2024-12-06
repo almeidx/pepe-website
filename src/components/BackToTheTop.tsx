@@ -5,7 +5,7 @@ import { ArrowUpward } from "@/components/icons/mdi/arrow-upward.tsx";
 export function BackToTheTop() {
 	return (
 		<button
-			className="flex items-center justify-center gap-1 whitespace-nowrap text-sm text-white/75"
+			className="flex items-center justify-center gap-1 whitespace-nowrap text-lrk-white/75 text-sm"
 			onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
 			type="button"
 		>

@@ -23,7 +23,7 @@ export function Showcase({
 
 					<div className="col-span-3 flex flex-col xl:gap-4">
 						<p className="mt-3 font-bold text-shadow-regular text-xl xl:place-self-start xl:text-3xl">{title}</p>
-						<p className="max-w-md text-white/75 tracking-tighter xl:text-left xl:text-xl">{description}</p>
+						<p className="max-w-md text-lrk-white/75 tracking-tighter xl:text-left xl:text-xl">{description}</p>
 					</div>
 				</div>
 			</div>

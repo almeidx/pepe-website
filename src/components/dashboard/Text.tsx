@@ -10,7 +10,7 @@ export function Text(props: TextProps) {
 
 	return (
 		<Element
-			className={clsx("text-lg text-white/75 tracking-tight md:text-xl", hasDocsPath && "flex items-center gap-2")}
+			className={clsx("text-lg text-lrk-white/75 tracking-tight md:text-xl", hasDocsPath && "flex items-center gap-2")}
 			htmlFor={htmlFor}
 		>
 			{children}

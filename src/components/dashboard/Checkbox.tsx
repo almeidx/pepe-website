@@ -3,7 +3,7 @@ import type { PropsWithChildren } from "react";
 export function Checkbox({ defaultValue, id }: CheckboxProps) {
 	return (
 		<input
-			className="size-5 rounded-lg accent-primary"
+			className="size-5 rounded-lg accent-lrk-primary"
 			defaultChecked={defaultValue}
 			id={id}
 			name={id}

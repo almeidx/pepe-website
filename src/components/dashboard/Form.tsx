@@ -35,7 +35,7 @@ export function Form({
 		<div className="flex w-full flex-col gap-5 px-4 py-4">
 			<div className="space-y-2">
 				<h2 className="font-semibold text-2xl">{title}</h2>
-				{description && <p className="text-white/75">{description}</p>}
+				{description && <p className="text-lrk-white/75">{description}</p>}
 			</div>
 
 			<form action={formAction} className="mb-12 flex flex-col gap-4">

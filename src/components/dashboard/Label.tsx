@@ -7,10 +7,10 @@ export function Label({ children, htmlFor, sub, small }: LabelProps) {
 			className="flex flex-wrap items-center gap-x-2 gap-y-1 md:flex-nowrap md:items-end md:gap-x-2"
 			htmlFor={htmlFor}
 		>
-			<p className={clsx("text-white/75 tracking-tight", small ? "text-md md:text-lg" : "text-lg md:text-xl")}>
+			<p className={clsx("text-lrk-white/75 tracking-tight", small ? "text-md md:text-lg" : "text-lg md:text-xl")}>
 				{children}
 			</p>{" "}
-			{sub ? <p className="mb-1 font-light text-white/50 text-xs">({sub})</p> : null}
+			{sub ? <p className="mb-1 font-light text-lrk-white/50 text-xs">({sub})</p> : null}
 		</label>
 	);
 }

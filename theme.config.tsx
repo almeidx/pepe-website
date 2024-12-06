@@ -1,4 +1,4 @@
-import "@/app/globals.css";
+import "@/app/(old)/globals.css";
 
 import faviconImg from "@/app/icon.png";
 import logoSmallImg from "@/assets/logo-small.webp";

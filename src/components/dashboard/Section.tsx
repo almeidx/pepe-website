@@ -5,7 +5,7 @@ export function Section(props: SectionProps) {
 	const { children, name } = props;
 
 	return (
-		<div className="flex flex-col gap-4 rounded-lg border border-white/25 bg-dark-gray px-6 py-8">
+		<div className="flex flex-col gap-4 rounded-lg border border-lrk-white/25 bg-dark-gray px-6 py-8">
 			{name && (
 				<h3 className="flex items-center font-semibold text-xl md:text-[1.4rem]">
 					{name}
